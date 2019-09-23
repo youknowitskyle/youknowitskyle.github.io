@@ -150,3 +150,28 @@ body{
     }
 }
 
+/* Extra small devices (phones, 600px and less) - LANDSCAPE */
+@media only screen and (max-width: 850px) and (orientation: landscape) {
+	.blurb {
+		font-size: 30px;
+	}
+	.miniblurb {
+		font-size: 20px;
+	}
+	.content {
+		padding: 0px 20px;
+	}
+	.project_info {
+		min-width: fit-content;
+		height: auto;
+		font-size: 0.6em;
+	}
+}
+
+/* Medium devices (landscape tablets, 760px and more) - PORTRAIT */
+@media only screen and (min-width: 760px) and (orientation: portrait) {
+	.project_info {
+		min-width: fit-content;
+	}
+}
+
