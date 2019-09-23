@@ -22,7 +22,7 @@ body{
     z-index: 1;
     top:0;
     left:0;
-    
+    overflow-x: hidden;
 }
 
 .content {
@@ -148,6 +148,45 @@ body{
     100% {
         opacity: 1;
     }
+}
+
+/* Extra small devices (phones, 600px and less) - PORTRAIT */
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+	.navbar
+	{
+		height: 100%;
+		width: 20vh;
+		overflow-x: none;
+		flex-direction: unset;
+	}
+	.bookmark
+	{
+		display: none;
+	}
+	.links a {
+		font-size: 0.6em;
+		padding: 5px 50px;
+	}
+	.container {
+		height: 10%;
+	}
+	.content {
+		margin-left: 0px;
+		margin-top: 20vh;
+		height: 75vh;
+		padding: 0px 20px;
+	}
+	.blurb {
+		font-size: 20px;
+	}
+	.miniblurb {
+		font-size: 15px;
+	}
+	.project_info {
+		min-width: fit-content;
+		height: auto;
+		font-size: 0.8em;
+	}
 }
 
 /* Extra small devices (phones, 600px and less) - LANDSCAPE */
