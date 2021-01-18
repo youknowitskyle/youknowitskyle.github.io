@@ -75,6 +75,11 @@ body {
   margin-top: 25px;
 }
 
+.otest-pic {
+  width: 500px;
+  margin-top: 25px;
+}
+
 .links a {
   font-family: "Thasadith", sans-serif;
   text-decoration: none;
